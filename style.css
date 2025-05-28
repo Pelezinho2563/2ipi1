@@ -19,3 +19,49 @@ h1, h2 {
 ul {
   padding-left: 20px;
 }
+
+body {
+  font-family: "Special Gothic Expanded One", sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #f3f3f3;
+  color: #a01818;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  color: #2a2296;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+/* Adicionando responsividade para telas menores */
+@media (max-width: 600px) {
+  body {
+    margin: 10px;
+  }
+  .container {
+    padding: 15px;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.2em;
+  }
+}
